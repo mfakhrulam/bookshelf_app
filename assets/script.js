@@ -215,7 +215,7 @@ function isStorageExist() {
 }
 
 document.addEventListener(SAVED_EVENT, function () {
-  alert("Data berhasil diupdate");
+  console.log("Data berhasil diupdate");
 });
 
 function loadDataFromStorage() {
